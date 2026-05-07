@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heavens Company Limited | Reliable Logistics in Ghana</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#0f172a',
+                        gold: '#D4AF37',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-slate-800 font-sans">
+
+    <nav class="bg-white/90 backdrop-blur-md sticky top-0 z-50 shadow-sm border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-2xl font-bold text-navy uppercase tracking-tighter">Heavens <span class="text-gold text-sm italic">Co. Ltd</span></span>
+                </div>
+                <div class="hidden md:flex space-x-8 font-medium text-sm uppercase tracking-wide text-navy">
+                    <a href="#home" class="hover:text-gold transition">Home</a>
+                    <a href="#about" class="hover:text-gold transition">About</a>
+                    <a href="#services" class="hover:text-gold transition">Services</a>
+                    <a href="#gallery" class="hover:text-gold transition">Gallery</a>
+                    <a href="#contact" class="hover:text-gold transition">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="text-navy"><i class="fa-solid fa-bars text-2xl"></i></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="relative h-[85vh] flex items-center overflow-hidden bg-navy">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1920&q=80" class="w-full h-full object-cover opacity-40" alt="Logistics">
+        </div>
+        <div class="relative z-10 max-w-7xl mx-auto px-6">
+            <div class="max-w-2xl">
+                <div class="flex items-center space-x-2 text-gold mb-4 font-bold">
+                    <i class="fa-solid fa-star"></i>
+                    <span class="text-sm tracking-widest uppercase">5.0 Google Rated Service</span>
+                </div>
+                <h1 class="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-6 uppercase">
+                    Reliable Transportation <span class="text-gold">You Can Trust.</span>
+                </h1>
+                <p class="text-gray-300 text-lg mb-8">Professional logistics and cargo hauling based in Adenta, Accra. We move your business forward with speed and safety.</p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#contact" class="bg-gold hover:bg-yellow-600 text-white px-8 py-4 rounded-md font-bold transition">Get a Quote</a>
+                    <a href="https://wa.me/233542310189?text=Hello%20Heavens%20Company%20Limited,%20I%20would%20like%20to%20inquire%20about%20your%20transportation%20services." class="bg-white/10 hover:bg-white/20 text-white backdrop-blur-sm border border-white/30 px-8 py-4 rounded-md font-bold transition flex items-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-xl"></i> WhatsApp Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-navy text-white">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12">
+            <div>
+                <h2 class="text-3xl font-black uppercase mb-6">Heavens Company Limited</h2>
+                <ul class="space-y-4">
+                    <li class="flex items-center gap-3"><i class="fa-solid fa-location-dot text-gold"></i> Adenta – Accra, Ghana</li>
+                    <li class="flex items-center gap-3"><i class="fa-solid fa-phone text-gold"></i> 0542310189 / 0533851847</li>
+                    <li class="flex items-center gap-3"><i class="fa-solid fa-envelope text-gold"></i> heavenscompanylimited@gmail.com</li>
+                </ul>
+                <div class="mt-8 flex gap-4 text-2xl">
+                    <a href="https://facebook.com/HeavensCompanyLimited" class="hover:text-gold"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/Ernest.boateng.10441" class="hover:text-gold"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="bg-white p-8 rounded-xl text-navy">
+                <h3 class="font-bold mb-4">Send us a message</h3>
+                <input type="text" placeholder="Name" class="w-full mb-4 p-3 bg-gray-100 rounded">
+                <textarea placeholder="Message" class="w-full mb-4 p-3 bg-gray-100 rounded h-24"></textarea>
+                <button class="w-full bg-navy text-white py-3 rounded font-bold uppercase hover:bg-black transition">Submit</button>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/233542310189?text=Hello%20Heavens%20Company%20Limited,%20I%20would%20like%20to%20inquire%20about%20your%20transportation%20services." 
+       class="fixed bottom-6 right-6 bg-[#25D366] w-14 h-14 rounded-full flex items-center justify-center text-white text-3xl shadow-xl hover:scale-110 transition z-50">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <footer class="bg-black py-6 text-center text-gray-500 text-xs">
+        <p>© 2026 Heavens Company Limited. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
